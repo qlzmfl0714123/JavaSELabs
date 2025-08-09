@@ -15,7 +15,8 @@ public class PersonEntity {
 	//overloading constructor
 	public PersonEntity(String name, String ssn, String address, String phone) {
 		this.name = name;
-		this.ssn = ssn;
+		//this.ssn = ssn;
+		setSsn(ssn);
 		this.address = address;
 		this.phone = phone;
 	}
